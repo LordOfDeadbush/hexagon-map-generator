@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Seeded Hex Map Generator</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <h1>Seeded Hex Map Generator</h1>
+
+    <div class="controls">
+        <input type="text" id="seedInput" placeholder="Enter seed..." />
+
+        <button id="randomBtn">
+            Random Seed
+        </button>
+
+        <button id="generateBtn">
+            Generate Map
+        </button>
+    </div>
+
+    <canvas
+        id="mapCanvas"
+        width="1000"
+        height="800">
+    </canvas>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
