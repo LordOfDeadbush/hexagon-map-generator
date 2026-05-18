@@ -138,7 +138,7 @@ function generateMap(seedString) {
 
     // Smaller circular-ish map
     // Radius 2 = classic small Catan-like shape
-    const MAP_RADIUS = 3;
+    const MAP_RADIUS = 2;
 
     const hexWidth =
         HEX_SIZE * Math.sqrt(3);
